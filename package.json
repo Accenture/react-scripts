@@ -1,0 +1,16 @@
+{
+  "name": "react-scripts",
+  "version": "0.0.1",
+  "description": "scripts for Accenture React projects",
+  "main": "index.js",
+  "repository": "https://github.com/Accenture/react-scripts",
+  "author": "David Rodriguez Fuentes",
+  "license": "MIT",
+  "bin": {
+    "accenture-react-scripts": "./index.js"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
