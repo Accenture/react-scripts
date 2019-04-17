@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "id": "opp-1",
+      "group": "opp",
+      "radius": 30
+    },
+    {
+      "id": "opp-2",
+      "group": "opp",
+      "radius": 10
+    },
+    {
+      "id": "opp-3",
+      "group": "opp",
+      "radius": 10
+    },
+    {
+      "id": "opp-4",
+      "group": "opp",
+      "radius": 10,
+      "x": 200,
+      "y": 100
+    },
+    {
+      "id": "opp-5",
+      "group": "opp",
+      "radius": 10
+    },
+    {
+      "id": "moment-1",
+      "group": "moment",
+      "radius": 30
+    },
+    {
+      "id": "moment-2",
+      "group": "moment",
+      "radius": 10
+    },
+    {
+      "id": "moment-3",
+      "group": "moment",
+      "radius": 10
+    },
+    {
+      "id": "moment-4",
+      "group": "moment",
+      "radius": 10
+    },
+    {
+      "id": "moment-5",
+      "group": "moment",
+      "radius": 10
+    },
+    {
+      "id": "user-1",
+      "group": "user",
+      "radius": 30
+    },
+    {
+      "id": "user-2",
+      "group": "user",
+      "radius": 10
+    },
+    {
+      "id": "user-3",
+      "group": "user",
+      "radius": 10
+    },
+    {
+      "id": "user-4",
+      "group": "user",
+      "radius": 10
+    },
+    {
+      "id": "user-5",
+      "group": "user",
+      "radius": 10
+    }
+  ],
+  "links": [
+    {
+      "source": "opp-1",
+      "target": "moment-2",
+      "value": 100
+    },
+    {
+      "source": "opp-1",
+      "target": "opp-2",
+      "value": 30
+    },
+    {
+      "source": "opp-1",
+      "target": "user-2",
+      "value": 30
+    },
+    {
+      "source": "user-1",
+      "target": "moment-3",
+      "value": 30
+    },
+    {
+      "source": "user-1",
+      "target": "moment-4",
+      "value": 30
+    },
+    {
+      "source": "moment-1",
+      "target": "opp-3",
+      "value": 30
+    },
+    {
+      "source": "moment-1",
+      "target": "moment-4",
+      "value": 30
+    }
+  ]
+}
